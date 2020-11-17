@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: ${CICD_GIT_REPO_NAME}:latest
+      tag: infoubicatecl/helloworld:latest
       pushRemote: true
       registry: index.docker.io
 branch:
