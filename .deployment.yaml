@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: speedroca/helloworld:latest
+        image: infoubicatecl/helloworld:latest
         ports:
         - containerPort: 80
 ---
